@@ -154,7 +154,7 @@ minetest.register_node("signs_bot:duplicator", {
 minetest.register_craft({
 	output = "signs_bot:duplicator",
 	recipe = {
-		{"default:steel_ingot", "group:wood", "default:steel_ingot"},
+		{"default:steel_ingot", "default:wood", "default:steel_ingot"},
 		{"", "basic_materials:gear_steel", ""},
 		{"default:tin_ingot", "", "default:tin_ingot"}
 	}
@@ -221,7 +221,7 @@ signs_bot.register_sign({
 minetest.register_craft({
 	output = "signs_bot:sign_blank 6",
 	recipe = {
-		{"group:wood", "default:stick", "group:wood"},
+		{"default:wood", "default:stick", "default:wood"},
 		{"dye:yellow", "default:stick", "dye:yellow"},
 		{"", "", ""}
 	}

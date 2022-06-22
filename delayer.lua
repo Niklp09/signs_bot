@@ -239,7 +239,7 @@ minetest.register_node("signs_bot:delayer_on", {
 minetest.register_craft({
 	output = "signs_bot:delayer",
 	recipe = {
-		{"group:wood", "dye:yellow", ""},
+		{"default:wood", "dye:yellow", ""},
 		{"default:mese_crystal_fragment", "", ""},
 		{"default:steel_ingot", "", ""},
 	}

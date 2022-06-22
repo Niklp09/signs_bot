@@ -129,7 +129,7 @@ minetest.register_craft({
 	output = "signs_bot:crop_sensor",
 	recipe = {
 		{"", "", ""},
-		{"dye:black", "group:stone", "dye:yellow"},
+		{"dye:black", "default:stone", "dye:yellow"},
 		{"default:steel_ingot", "default:mese_crystal_fragment", "default:steel_ingot"}
 	}
 })

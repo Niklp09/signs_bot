@@ -192,7 +192,7 @@ minetest.register_craft({
 	output = "signs_bot:node_sensor",
 	recipe = {
 		{"", "", ""},
-		{"dye:black", "group:stone", "dye:grey"},
+		{"dye:black", "default:stone", "dye:grey"},
 		{"default:steel_ingot", "default:mese_crystal_fragment", "default:steel_ingot"}
 	}
 })

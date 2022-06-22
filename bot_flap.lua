@@ -55,7 +55,7 @@ minetest.register_node("signs_bot:bot_flap", {
 minetest.register_craft({
 	output = "signs_bot:bot_flap",
 	recipe = {
-		{"signs_bot:sign_cmnd", "group:wood", "default:steel_ingot"},
+		{"signs_bot:sign_cmnd", "default:wood", "default:steel_ingot"},
 		{"", "", ""},
 		{"", "", ""}
 	}

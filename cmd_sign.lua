@@ -351,7 +351,7 @@ signs_bot.register_botcommand("trash_sign", {
 minetest.register_craft({
 	output = "signs_bot:sign_cmnd 4",
 	recipe = {
-		{"group:wood", "default:stick", "group:wood"},
+		{"default:wood", "default:stick", "default:wood"},
 		{"dye:yellow", "default:stick", "dye:yellow"},
 		{"", "dye:black", ""}
 	}

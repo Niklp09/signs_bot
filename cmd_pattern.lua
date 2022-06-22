@@ -180,7 +180,7 @@ signs_bot.register_sign({
 minetest.register_craft({
 	output = "signs_bot:pattern 2",
 	recipe = {
-		{"group:wood", "default:stick", "group:wood"},
+		{"default:wood", "default:stick", "default:wood"},
 		{"dye:red", "default:stick", "dye:black"},
 		{"", "", ""}
 	}
@@ -209,7 +209,7 @@ signs_bot.register_sign({
 minetest.register_craft({
 	output = "signs_bot:copy3x3x3 2",
 	recipe = {
-		{"group:wood", "default:stick", "group:wood"},
+		{"default:wood", "default:stick", "default:wood"},
 		{"dye:black", "default:stick", "dye:red"},
 		{"", "", ""}
 	}

@@ -236,7 +236,7 @@ minetest.register_node("signs_bot:and3", {
 minetest.register_craft({
 	output = "signs_bot:and1",
 	recipe = {
-		{"group:wood", "dye:yellow", ""},
+		{"default:wood", "dye:yellow", ""},
 		{"", "", ""},
 		{"default:steel_ingot", "", "default:mese_crystal_fragment"},
 	}

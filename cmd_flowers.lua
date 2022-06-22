@@ -126,7 +126,7 @@ signs_bot.register_sign({
 minetest.register_craft({
 	output = "signs_bot:flowers 2",
 	recipe = {
-		{"group:wood", "default:stick", "group:wood"},
+		{"default:wood", "default:stick", "default:wood"},
 		{"dye:black", "default:stick", "dye:yellow"},
 		{"dye:red", "", ""}
 	}

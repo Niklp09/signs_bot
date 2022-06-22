@@ -126,7 +126,7 @@ minetest.register_craft({
 	output = "signs_bot:cart_sensor",
 	recipe = {
 		{"", "", ""},
-		{"dye:black", "group:stone", "dye:yellow"},
+		{"dye:black", "default:stone", "dye:yellow"},
 		{"default:copper_ingot", "default:mese_crystal_fragment", "default:steel_ingot"}
 	}
 })

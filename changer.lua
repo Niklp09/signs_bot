@@ -164,7 +164,7 @@ minetest.register_craft({
 	output = "signs_bot:changer1",
 	recipe = {
 		{"", "", ""},
-		{"dye:yellow", "group:wood", "dye:black"},
+		{"dye:yellow", "default:wood", "dye:black"},
 		{"default:steel_ingot", "default:mese_crystal_fragment", "default:steel_ingot"}
 	}
 })

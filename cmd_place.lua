@@ -429,7 +429,7 @@ minetest.register_node("signs_bot:torch", {
 		
 	},
 	connects_to = {
-		"group:pane", "group:stone", "group:glass", "group:wood", "group:tree", 
+		"group:pane", "default:stone", "group:glass", "default:wood", "group:tree", 
 		"group:bakedclay", "group:soil"},
 	paramtype = "light",
 	paramtype2 = "facedir",

@@ -271,7 +271,7 @@ signs_bot.register_sign({
 minetest.register_craft({
 	output = "signs_bot:water",
 	recipe = {
-		{"group:wood", "bucket:bucket_empty", "group:wood"},
+		{"default:wood", "bucket:bucket_empty", "default:wood"},
 		{"dye:black", "default:stick", "dye:yellow"},
 		{"dye:blue", "", ""}
 	}
@@ -280,7 +280,7 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "signs_bot:soup",
 	recipe = {
-		{"group:wood", "xdecor:bowl", "group:wood"},
+		{"default:wood", "xdecor:bowl", "default:wood"},
 		{"dye:black", "default:stick", "dye:yellow"},
 		{"dye:orange", "", ""}
 	}

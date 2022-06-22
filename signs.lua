@@ -125,7 +125,7 @@ register_sign({
 minetest.register_craft({
 	output = "signs_bot:sign_right 6",
 	recipe = {
-		{"group:wood", "default:stick", "group:wood"},
+		{"default:wood", "default:stick", "default:wood"},
 		{"dye:yellow", "default:stick", "dye:black"},
 		{"", "", ""}
 	}
@@ -141,7 +141,7 @@ register_sign({
 minetest.register_craft({
 	output = "signs_bot:sign_left 6",
 	recipe = {
-		{"group:wood", "default:stick", "group:wood"},
+		{"default:wood", "default:stick", "default:wood"},
 		{"dye:yellow", "default:stick", ""},
 		{"dye:black", "", ""}
 	}
@@ -157,7 +157,7 @@ register_sign({
 minetest.register_craft({
 	output = "signs_bot:sign_take 6",
 	recipe = {
-		{"group:wood", "default:stick", "group:wood"},
+		{"default:wood", "default:stick", "default:wood"},
 		{"dye:yellow", "default:stick", ""},
 		{"", "dye:black", ""}
 	}
@@ -173,7 +173,7 @@ register_sign({
 minetest.register_craft({
 	output = "signs_bot:sign_add 6",
 	recipe = {
-		{"group:wood", "default:stick", "group:wood"},
+		{"default:wood", "default:stick", "default:wood"},
 		{"dye:yellow", "default:stick", ""},
 		{"", "", "dye:black"}
 	}
@@ -189,7 +189,7 @@ register_sign({
 minetest.register_craft({
 	output = "signs_bot:sign_stop 6",
 	recipe = {
-		{"group:wood", "default:stick", "group:wood"},
+		{"default:wood", "default:stick", "default:wood"},
 		{"dye:black", "default:stick", "dye:yellow"},
 		{"", "", ""}
 	}
@@ -206,7 +206,7 @@ if minetest.global_exists("minecart") then
 	minetest.register_craft({
 		output = "signs_bot:sign_add_cart 4",
 		recipe = {
-			{"group:wood", "default:stick", "group:wood"},
+			{"default:wood", "default:stick", "default:wood"},
 			{"dye:black", "default:stick", "dye:yellow"},
 			{"dye:black", "", ""}
 		}
@@ -222,7 +222,7 @@ if minetest.global_exists("minecart") then
 	minetest.register_craft({
 		output = "signs_bot:sign_take_cart 4",
 		recipe = {
-			{"group:wood", "default:stick", "group:wood"},
+			{"default:wood", "default:stick", "default:wood"},
 			{"dye:black", "default:stick", "dye:yellow"},
 			{"", "dye:black", ""}
 		}
